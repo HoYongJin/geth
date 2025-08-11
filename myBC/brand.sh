@@ -1,0 +1,23 @@
+#!/bin/sh
+
+find ./go-dogeum -type f -exec gsed -i "s/ethereum/dogeum/g" {} ";"
+find ./go-dogeum -type f -exec gsed -i "s/Ethereum/Dogeum/g" {} ";"
+find ./go-dogeum -type f -exec gsed -i "s/ETHEREUM/DOGEUM/g" {} ";"
+find ./go-dogeum -type f -exec gsed -i "s/ether/doge/g" {} ";"
+find ./go-dogeum -type f -exec gsed -i "s/Ether/Doge/g" {} ";"
+find ./go-dogeum -type f -exec gsed -i "s/ETHER/DOGE/g" {} ";"
+find ./go-dogeum -type f -exec gsed -i "s/geth/gdoge/g" {} ";"
+find ./go-dogeum -type f -exec gsed -i "s/Geth/Gdoge/g" {} ";"
+find ./go-dogeum -type f -exec gsed -i "s/GETH/GDOGE/g" {} ";"
+
+find ./go-dogeum -type f -exec gsed -i "s/dogebase/etherbase/g" {} ";"
+find ./go-dogeum -type f -exec gsed -i "s/Dogebase/Etherbase/g" {} ";"
+find ./go-dogeum -type f -exec gsed -i "s|github.com/dogeum|github.com/dogeum-network|g" {} ";"
+find ./go-dogeum -type f -exec gsed -i "s|dogeum-network/EIPs|ethereum/EIPs|g" {} ";"
+find ./go-dogeum -type f -exec gsed -i "s/dogeum.Dogeum/ethereum.Ethereum/g" {} ";"
+find ./go-dogeum -type f -exec gsed -i "s/dogeum.org/ethereum.org/g" {} ";"
+find ./go-dogeum -type f -exec gsed -i "s/eips.dogeum/eips.ethereum/g" {} ";"
+find ./go-dogeum -type f -exec gsed -i "s/whdoge/whether/g" {} ";"
+find ./go-dogeum -type f -exec gsed -i "s/Whdoge/Whether/g" {} ";"
+find ./go-dogeum -type f -exec gsed -i "s/togdoge/together/g" {} ";"
+find ./go-dogeum -type f -exec gsed -i "s/Togdoge/Together/g" {} ";"
